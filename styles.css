@@ -12,12 +12,54 @@ body {
     text-align: center;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
+h2 {
+    margin-top: 6vh;
+}
+
 ul {
-    list-style-type: none;
+    list-style-type:square;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+}
+
+p, ol {
+    display: block;
+    /* width: fit-content; */
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: left;
+    width: 60vw;
+}
+
+p {
+    max-width: max-content;
+}
+
+ol {
+    width: 65vw;
+    margin-bottom: 5vh;
+}
+
+ul {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* principal page */
+#odin-recipes {
+    font-size: 2.2em;
 }
 
 .list {
@@ -38,8 +80,11 @@ ul {
     text-decoration: none;
     border-radius: 10px;
     color: white;
+    font-size: 1.1em;
 }
 
 .list li a:hover {
     background-color: rgb(188, 5, 182);
 }
+
+/*  */
