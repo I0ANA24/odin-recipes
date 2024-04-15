@@ -56,7 +56,6 @@ img {
     width: auto;
     max-width: 90vw;
     height: 50vh;
-    /* min-height: 30vh; */
 }
 
 p, ol {
@@ -123,4 +122,11 @@ ul {
     background-color: rgb(188, 5, 182);
 }
 
-/*  */
+@media screen and (max-width: 400px) {
+    img {
+        height: auto;
+        width: auto;
+        max-width: 90vw;
+        max-height: 50vh;
+    }
+}
